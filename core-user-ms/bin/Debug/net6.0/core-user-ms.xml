@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>core-user-ms</name>
+    </assembly>
+    <members>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetHealth">
+            <summary>
+            GetHealth
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.Health">
+            <summary>
+            Head endpoint for Health
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetAllUserData">
+            <summary>
+            Get All User Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetAllActiveUserData">
+            <summary>
+            Get All Active User Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetAllActiveUserDataByCompanyID(System.Guid)">
+            <summary>
+            Get All Active User Data created by Parent admin
+            </summary>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetAllInactiveUserDataByCompanyID(System.Guid)">
+            <summary>
+            Get All Inactive User Data created by Parent admin
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.PostUsersData(UserRegistration_core_ms.Model.UsersDto)">
+            <summary>
+            Create User Data
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetUsersDataById(System.Guid)">
+            <summary>
+            Get User data by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetUsersDataByEmail(System.String)">
+            <summary>
+            Get User data by email
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateUserDataByPrimaryEmail(UserRegistration_core_ms.Model.UsersUpdateDto)">
+            <summary>
+            Update User Data By Primary Email
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateUserDataByUserId(UserRegistration_core_ms.Model.UsersUpdateDto)">
+            <summary>
+            Update User Data By UserId
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateUserNameCountryCityByPrimaryEmail(UserRegistration_core_ms.Model.UpdateUserDataDto)">
+            <summary>
+            Update UserName Country City By PrimaryEmail
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateContactNumberByEmail(UserRegistration_core_ms.Model.UpdateContactNumberDto)">
+            <summary>
+            Update Contact Number By Email
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateLanguageTimeZoneByEmail(UserRegistration_core_ms.Model.UpdateLanguageTimeZoneDto)">
+            <summary>
+            Update Language TimeZone By Email
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateOrganizationByEmail(UserRegistration_core_ms.Model.UpdateOrganizationDto)">
+            <summary>
+            Update Organization By Email
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateNotificationByEmail(UserRegistration_core_ms.Model.UpdateNotificationDto)">
+            <summary>
+            Update Notification By Email
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.DeActivateUserDataByEmailId(System.String)">
+            <summary>
+            DeActivate UserData By EmailId
+            </summary>
+            <param name="EmailID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.GetUsersDataByCompanyId(System.Guid)">
+            <summary>
+            GetUsersDataByCompanyId
+            </summary>
+            <param name="companyid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.ReActivateUserDataByEmailId(System.String)">
+            <summary>
+            ReActivate User Data By EmailId
+            </summary>
+            <param name="EmailID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.ResetPasswordByEmailId(UserRegistration_core_ms.Model.ForgotPasswordDto)">
+            <summary>
+            Reset Password By EmailId
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UploadUserImage(Microsoft.AspNetCore.Http.IFormFile,System.Guid)">
+            <summary>
+            Upload File
+            </summary>
+            <param name="file"></param>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.ResetPasswordByEmailIdAndOldPwd(UserRegistration_core_ms.Model.ForgotPasswordWithOldPwdDto)">
+            <summary>
+            Reset Password By EmailId
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UpdateSecondaryEmail(UserRegistration_core_ms.Model.UpdateSecondaryEmailDto)">
+            <summary>
+            Update Seccondary Email By Email
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.SecondaryEmailVerify(UserRegistration_core_ms.Model.UpdateSecondaryEmailVerifyDto)">
+            <summary>
+            Update Is Email Verified By Email
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.UserOnlineOrOfflineByUserId(System.Guid,System.Nullable{System.Boolean})">
+            <summary>
+            Change User status Online Or Offline By UserId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.IsVerifiedByEmailId(System.String)">
+            <summary>
+            Change User status Online Or Offline By UserId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserRegistration_core_ms.Controllers.UserController.SetupUserFirstLoginByUserId(System.Guid)">
+            <summary>
+            Setup User First Login By UserId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
